@@ -24,8 +24,7 @@ img {
 
 .image-wrapper{
   max-width: 300px;
-  max-height: 300px;
-
+  float: left;
 }
 
 .feed-wrapper{
@@ -37,4 +36,23 @@ img {
 .home-wrapper{
   margin: 0;
   background: #000000;
+}
+
+.costume-wrapper {
+  width: 100%;
+  float: left;
+
+  .photo {
+    width: 29%;
+    margin: 2%;
+    float: left;
+    height: 340px;
+    overflow: hidden;
+  }
+  img {
+    float: left;
+  }
+  .vote {
+    float: left;
+  }
 }
