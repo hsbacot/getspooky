@@ -8,11 +8,15 @@
 </head>
 <body>
 
-<%= render 'shared/header' %>
+  <div class="feed-wrapper">
 
-<%= yield %>
+    <%= render 'shared/header' %>
 
-<%= render 'shared/footer' %>
+    <%= yield %>
+
+    <%= render 'shared/footer' %>
+
+  </div>
 
 </body>
 </html>

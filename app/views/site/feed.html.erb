@@ -1,4 +1,6 @@
 <h2>BOOOOOOOOO</h2>
 <% @posts.each do |post| %>
-  <p><%= image_tag get_tumblr_post_image post %></p>
+  <div class="image-wrapper">
+    <%= image_tag get_tumblr_post_image post %>
+  </div>
 <% end %>

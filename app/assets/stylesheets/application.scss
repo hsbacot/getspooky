@@ -14,6 +14,27 @@
  *= require_self
  */
 
+ body {
+  margin: 0;
+ }
+
 img {
   max-width: 100%;
+}
+
+.image-wrapper{
+  max-width: 300px;
+  max-height: 300px;
+
+}
+
+.feed-wrapper{
+  border: 20px #000000 solid; 
+  border-top: 80px #000000 solid;
+  border-bottom: 80px #000000 solid;
+}
+
+.home-wrapper{
+  margin: 0;
+  background: #000000;
 }
